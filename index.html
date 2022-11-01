@@ -1,90 +1,120 @@
 <!DOCTYPE html>
 <html lang>
+
 <head>
-    <meta charset="UTF-8">
- <title>Resume Marsik</title>
-<link href="styles.css" rel="stylesheet"/>
+  <meta charset="UTF-8">
+  <title>Resume Marsik</title>
+  <link href="styles.css" rel="stylesheet" />
+
 <body>
-  
-  <div class="info">
-    <img src="avatar.jpeg" alt="фото"
-    class="avatar" />
-    <h1>Марсик</h1> 
-    <p><strong>Любимая</strong> наглая морда</p> 
-    <p>Люблю поспать и покушать</p>
+  <div class="container">
+    <div class="info">
+      <img src="avatar.jpeg" alt="фото" class="avatar" />
+      <div class="info-text">
+        <h1>Марсик</h1>
+        <p><strong>Любимая</strong> наглая морда</p>
+        <p>Люблю поспать и покушать</p>
+
+        <h4>Мои соц.сети</h4>
+
+        <a href="https://instsgram.com/nice_nails.lika" target="_blank">instagram</a>
+        |
+        <a href="facebok" target="_blank">facebok</a>
+      </div>
+    </div>
+
+
+    <div class="card bg-yellow">
+      <h2>Мои хобби</h2>
+      <ol class="list">
+        <li>кушать</li>
+        <li>спать</li>
+        <li>гулять</li>
+        <li>смотреть в окно</li>
+      </ol>
+    </div>
+
+    <div class="card bg-green">
+      <h2>Опыт работы</h2>
+      <table class="table">
+
+        <tr>
+          <td>Подоконник</td>
+          <td>Птицелов</td>
+          <td>2019-2020</td>
+        </tr>
+
+        <tr>
+          <td>Кухня</td>
+          <td>Мясоед</td>
+          <td>2020-2021</td>
+        </tr>
+
+        <tr>
+          <td>Спальня</td>
+          <td>Спящий красавчик</td>
+          <td>2020-2022</td>
+        </tr>
+
+        <tr>
+          <td>Турист</td>
+          <td>Модель</td>
+          <td>2020-2022</td>
+        </tr>
+
+      </table>
+    </div>
+
+    <div class="card bg-red">
+      <h2>Курсы Youtube "Как ничего не делать"</h2>
+      <ul class="link-list">
+        <li>
+          <a href="https://youtu.be/XwEN1rE4B04">Самый простой ажурный узор! Узор «Ажурная змейка»</a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/watch?v=VozaECidVnE"> Рельефный узор "Ложная коса" </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="contact">
+
+
+      <h2>Связаться со мной</h2>
+      <form action="/">
+        <div class="row">
+          <div class="form-group">
+            <label for="name">Ваше имя:</label>
+            <input tupe="text" id="name" placeholder="Введите ваше имя...">
+          </div>
+
+          <div class="form-group">
+            <label for="email">Ваш email:</label>
+            <input tupe="email" id="email" placeholder="Введите email...">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="text">Ваше сообщение:</label>
+        </div>
+
+        <div class="form-group">
+          <textarea id="text" rows="5" cols="30"></textarea>
+        </div>
+        <input class="btn" type="submit" value="Связаться">
+    
+        </form>
+    </div>
+
+    <div class="position">
+      <div class="box">
+      </div>
+    </div>
   </div>
 
-  <hr>
 
-  <h2>Мои соц.сети</h2>
-<ul type="square">
-    <li><a href="https://instsgram.com/nice_nails.lika" target="_blank">instagram</a></li>
-    <li><a href="facebok" target="_blank">facebok</a></li>
-</ul>
-
-  <hr>
-
-  <h2>Мои хобби</h2>
-<ol>
-    <li>кушать</li>
-    <li>спать</li>
-    <li>гулять</li>
-<li>смотреть в окно</li>
-</ol>
-
-  <hr>
-
-<h2>Опыт работы</h2>
-<table >
-    <tr>
-      <th>Компания</th>
-      <th>Должность</th>
-      <th>Год</th>
-    </tr>
-    <tr>
-      <td>Кухня</td>
-      <td>Мясоед</td>
-      <td>2020-2021</td>
-    </tr>
-  
-  <tr>
-      <td>Спальня</td>
-      <td>Спящий красавчик</td>
-      <td>2020-2022</td>
-  </tr>
-</table>
-
-<hr>
-
-<h2>Курсы Youtube "Как ничего не делать"</h2>
-<a href="Youtube.html">Посмотреть список</a>
-
-<h2>Связаться со мной</h2>
-<form action="/">
-  <label for="name">Ваше имя:</label>
-  <input tupe="text"  id="name"
-  placeholder="Введите ваше имя..."> 
-
-  <br>
-
-  <label for="email">Ваш email:</label>
-  <input tupe="email"  id="email"
-   placeholder="Введите email...">
-
-   <br>
-
-  <label for="text">Ваше сообщение:</label>
-
-  <br>
-
-<textarea id="text" rows="5" cols="30"></textarea>
-
-<br>
-
-<input type="submit" value="Связаться">
-
-
-
-</form>
+  <div style="margin-bottom: 500px;"></div>
+  </div>
 </body>
+
 </html>
